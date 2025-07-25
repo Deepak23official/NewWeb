@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://unpkg.com/lenis/dist/lenis.min.js"></script>
+
+    <style>
+        .scrollbar-hide::-webkit-scrollbar {
+            display: none;
+        }
+        .animi{
+            opacity: 0;
+            filter: blur(5px);
+            transform: scale(.7);
+            transition: all 1s;
+        }
+        .show{
+            opacity: 1;
+            filter: blur(0);
+            transform: scale(1);
+        }
+    </style>
+</head>
+<body class="text-white bg-black">
+   <nav class="sticky top-0 left-0 z-40 flex items-center justify-between h-20 px-5 bg-black/10 backdrop-blur-md">
+  <img class="w-60 max-sm:w-32" src="/Screenshot 2025-07-21 230837-Photoroom.png" alt="Logo">
+  <div>
+    <h2 class="mr-16 text-2xl tracking-wider text-white max-sm:mr-0">Find Talent</h2>
+  </div>
+</nav>
+
+
+    <section class="flex items-center justify-between px-10 mt-12 max-sm:p-4 max-sm:flex-col">
+        <div class="w-full animi">
+            <p class="text-[50px] max-sm:text-[25px] text-[#e49029] pb-3 leading-tight">Global presence.<br> Strategic positioning.</p>
+            <p class="text-[23px] max-sm:text-[14px] pb-4 text-gray-400">We’re a global think tank of workforce experts, solving real business challenges through curated minds that deliver measurable impact.</p>
+            <button class="text-[33px] max-sm:my-8 max-sm:w-full max-sm:rounded-xl max-sm:h-14 max-sm:text-white shadow-orange-400 max-sm:shadow-[0_0_20px_#e49029] max-sm:text-center max-sm:bg-[#e49029] max-sm:text-[17px] tracking-wider text-sky-200">Schudle a call</button>
+        </div>
+        <div class="w-full animi">
+            <img src="/Screenshot 2025-07-21 230929.png" alt="">
+        </div>
+    </section>
+
+    <section class="flex gap-4 px-8 max-sm:flex-col max-sm:px-4 mt-44 pb-44 max-sm:pb-24">
+        <div class="text-[50px] animi max-sm:text-xl max-sm:w-full w-4/6">
+            <h1>Sectors We Support</h1>
+        </div>
+        <div class="flex flex-col *:max-sm:flex-col *:max-sm:items-start w-full overflow-y-auto scrollbar-hide scroll-smooth gap-28 max-sm:gap-16 max-h-96" data-lenis-prevent>
+            <div class="flex items-end animi justify-evenly">
+                <div class="leading-tight">
+                    <p class="text-[90px] w-44 font-bold text-[#e49029]">01</p>
+                    <p class="text-xl">Tech & Media</p>
+                </div>
+                <p class="text-2xl max-sm:py-4 text-gray-400 max-sm:text-[15px] max-sm:leading-tight">Driving innovation through top-tier talent and adaptive workforce strategies. And made it Easy</p>
+            </div>
+            <div class="flex items-end animi justify-evenly">
+                <div class="leading-tight">
+                    <p class="text-[90px] w-44 font-bold text-[#e49029]">02</p>
+                    <p class="text-xl">Tech & Media</p>
+                </div>
+                <p class="text-2xl max-sm:py-4 text-gray-400 max-sm:text-[15px] max-sm:leading-tight">Driving innovation through top-tier talent and adaptive workforce strategies. And made it Easy</p>
+            </div>
+            <div class="flex items-end animi justify-evenly">
+                <div class="leading-tight">
+                    <p class="text-[90px] w-44 font-bold text-[#e49029]">03</p>
+                    <p class="text-xl">Tech & Media</p>
+                </div>
+                <p class="text-2xl max-sm:py-4 text-gray-400 max-sm:text-[15px] max-sm:leading-tight">Driving innovation through top-tier talent and adaptive workforce strategies. And made it Easy</p>
+            </div>
+            <div class="flex items-end animi justify-evenly">
+                <div class="leading-tight">
+                    <p class="text-[90px] w-44 font-bold text-[#e49029]">04</p>
+                    <p class="text-xl">Tech & Media</p>
+                </div>
+                <p class="text-2xl max-sm:py-4 text-gray-400 max-sm:text-[15px] max-sm:leading-tight">Driving innovation through top-tier talent and adaptive workforce strategies. And made it Easy</p>
+            </div>
+            <div class="flex items-end animi justify-evenly">
+                <div class="leading-tight">
+                    <p class="text-[90px] w-44 font-bold text-[#e49029]">05</p>
+                    <p class="text-xl">Tech & Media</p>
+                </div>
+                <p class="text-2xl max-sm:py-4 text-gray-400 max-sm:text-[15px] max-sm:leading-tight">Driving innovation through top-tier talent and adaptive workforce strategies. And made it Easy</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="px-20 py-32 max-sm:py-20 max-sm:px-4">
+  <h1 class="text-[60px] max-sm:text-[30px] animi text-center">Our Services</h1>
+  <div class="grid grid-cols-12 *:max-sm:text-justify gap-6 max-sm:grid-flow-row max-sm:grid-cols-1  mt-16 *:rounded-xl *:text-md *:py-6 *:mt-2 *:px-3">
+    
+    <!-- 1st: High width -->
+    <div class="col-span-7 max-sm:w-full bg-[#645c5c2c] animi">
+      <i class="flex items-center justify-center w-12 h-12 text-[25px]  bg-slate-50 text-black rounded-full fa-solid fa-hand-holding-heart"></i>
+      <div class="py-3 text-3xl">Procurement Strategy</div>
+      <div class="text-gray-300 ">Streamline sourcing with expert-driven insights. We help organizations optimize procurement operations through cost-efficient, compliant, and scalable strategies. From indirect sourcing to vendor consolidation—we connect you to experts who’ve done it before.</div>
+    </div>
+    
+    <!-- 2nd: Low width -->
+    <div class="col-span-5 max-sm:col-span-7 max-sm:w-full bg-[#645c5c2c] animi">
+        <i class="flex items-center justify-center w-12 h-12 text-[25px] text-black rounded-full fa-solid fa-file-contract bg-slate-50"></i>
+      <div class="py-3 text-3xl">Recruitment Process Outsourcing</div>
+      <div class="text-gray-300">Plug in expert-led hiring at scale. Whether you need full-cycle RPO or just support for one region or role, Ottomate’s experts deliver talent pipelines built for consistency, compliance, and conversion.</div>
+    </div>
+
+    <!-- 3rd: Medium width -->
+    <div class="col-span-6 max-sm:col-span-7 max-sm:w-full bg-[#645c5c2c] animi">
+        <i class="flex items-center justify-center w-12 h-12 text-[25px]  bg-slate-50 text-black rounded-full fa-solid fa-star"></i>
+      <div class="py-3 text-3xl">Vendor Management Systems</div>
+      <div class="text-gray-300">Smarter staffing starts here. From contract to contingent to full-time—we align your workforce model with market dynamics, cost structures, and regional</div>
+    </div>
+    
+    <!-- 4th: Medium width -->
+    <div class="col-span-6 max-sm:col-span-7 max-sm:w-full bg-[#645c5c2c] animi">
+        <span><i class="flex items-center justify-center w-12 h-12 p-3 text-[25px]  bg-slate-50 text-black rounded-full fa-solid fa-desktop"></i></span>
+      <div class="py-3 text-3xl">Software Development</div>
+      <div class="text-gray-300">Build smarter with vetted technical expertise. From frontend specialists to system architects, Ottomate connects you with software professionals who understand delivery, scalability, and modern dev stacks—globally aligned and project-ready.</div>
+    </div>
+
+    <!-- 5th: Low width -->
+    <div class="col-span-5 max-sm:col-span-7 max-sm:w-full bg-[#645c5c2c] animi">
+        <i class="flex items-center justify-center w-12 h-12 text-[25px]  bg-slate-50 text-black rounded-full fa-solid fa-shield-halved"></i>
+      <div class="py-3 text-3xl">Staffing Advisory</div>
+      <div class="text-gray-300">Smarter staffing starts here. From contract to contingent to full-time—we align your workforce model with market dynamics, cost structures, and regional</div>
+    </div>
+
+    <!-- 6th: High width -->
+    <div class="col-span-7 max-sm:col-span-7 max-sm:w-full bg-[#645c5c2c] animi">
+        <i class="flex items-center justify-center w-12 h-12 text-[25px]  bg-slate-50 text-black rounded-full fa-solid fa-person-military-to-person"></i>
+      <div class="py-3 text-3xl">Managed Service Providers</div>
+      <div class="text-gray-300">Build or optimize your MSP program. Get strategic guidance on MSP selection, performance frameworks, and implementation. We support both buyers and providers to ensure mutual success.</div>
+    </div>
+
+  </div>
+</section>
+
+<section class="px-20 max-sm:p-0 max-sm:relative">
+    <h1 class="text-[55px] max-sm:text-[35px] animi max-sm:text-center max-sm:pb-20">Why Ottomate</h1>
+
+    <div class="flex gap-3 *:max-sm:absolute max-sm:justify-start justify-end w-full *:w-12 *:h-10 *:rounded-sm *:text-2xl *:flex *:justify-center *:items-center *:bg-orange-400">
+        <span class="top-80"><i class="fa-solid fa-angle-left"></i></span>
+        <span class="right-0 top-80"><i class="fa-solid fa-angle-right"></i></span>
+    </div>
+
+    <section class="w-full py-10 overflow-x-auto text-white bg-black animi scrollbar-hide">
+  <div class="flex gap-6 px-10 max-sm:p-0 min-w-max">
+    
+    <!-- Card 1 -->
+    <div class="flex-shrink-0 p-6 rounded-lg h-96 w-80 bg-zinc-900">
+      <p class="mb-4 text-xl font-semibold">Speed with<br>Precision</p>
+      <img src="https://framerusercontent.com/images/rTP3xgOYKYiHBtI3uXvfgp0rXxs.png" alt="Speed with Precision" class="object-contain w-full h-56">
+    </div>
+
+    <!-- Card 2 -->
+    <div class="flex-shrink-0 p-6 rounded-lg w-80 bg-zinc-900">
+      <p class="mb-4 text-xl font-semibold">Integrated<br>Access</p>
+      <img src="https://framerusercontent.com/images/cxlq75eS73fdGOCPlJKfsnb8NGg.png" alt="Integrated Access" class="object-contain w-full h-56">
+    </div>
+
+    <!-- Card 3 -->
+    <div class="flex-shrink-0 p-6 rounded-lg w-80 bg-zinc-900">
+      <p class="mb-4 text-xl font-semibold">Think Tank<br>Approach</p>
+      <img src="https://framerusercontent.com/images/1Y9DAyil7LqadDyMyr8aBZRMrw.png" alt="Think Tank Approach" class="object-contain w-full h-56">
+    </div>
+
+    <!-- Card 4 -->
+    <div class="flex-shrink-0 p-6 rounded-lg w-80 bg-zinc-900">
+      <p class="mb-4 text-xl font-semibold">Global<br>Context</p>
+      <img src="https://framerusercontent.com/images/xAaE26T1PCALTH6E6Nxhxig2p7c.png" alt="Global Context" class="object-contain w-full h-56">
+    </div>
+
+    <!-- Card 5 -->
+    <div class="flex-shrink-0 p-6 rounded-lg w-80 bg-zinc-900">
+      <p class="mb-4 text-xl font-semibold">Curated,<br>Not Crowdsource</p>
+      <img src="https://framerusercontent.com/images/48rBbDfSzoj4AOiRn6qmY1QHUQ.png" alt="Curated, Not Crowdsource" class="object-contain w-full h-56">
+    </div>
+
+  </div>
+</section>
+
+</section>
+
+    <section class="my-32 text-center">
+        <h1 class="text-center max-sm:w-full animi max-sm:text-[40px] max-sm:text-center text-[100px] leading-tight mx-auto w-[750px]">
+            Need expert insight to move your <b class="text-[#e49029]">workforce</b> forward?
+        </h1>
+        <button class="my-16 max-sm:text-[20px] text-[40px] text-sky-300">Schedule a Call</button>
+    </section>
+
+    <section class="grid items-end grid-flow-col gap-10 px-10 leading-tight max-sm:mb-16 max-sm:w-full max-sm:items-start max-sm:grid-flow-row max-sm:p-4">
+  <div class="w-96 animi max-sm:w-full">
+    <p class="text-[50px] max-sm:text-[25px]">Discover experts. </p>
+    <p class="text-[50px] max-sm:text-[25px]">Not just talent.</p>
+    <button class="my-6 mb-24 text-3xl text-sky-300 max-sm:text-xl max-sm:mb-10">Book a Call</button>
+    
+    <div class="h-[1px] mb-12 bg-white max-sm:w-full"></div>
+
+    <div class="w-full max-sm:w-full">
+  <p class="pb-8 text-md w-96 max-sm:w-full max-sm:text-sm">
+    “We needed regional insight to scale across APAC. Ottomate delivered expert alignment faster than our internal team could.”
+  </p>
+
+  <div class="flex flex-wrap items-center justify-between w-full gap-4 animi max-sm:gap-4">
+  
+    <div class="flex items-center gap-4 max-w-[480px] w-full sm:w-[60%] max-sm:flex-shrink">
+      <img id="img" class="object-cover rounded-full w-14 h-14 shrink-0" src="https://framerusercontent.com/images/8tNhsHc4B7TFPpBK9UU3Rz4Vdk.png" alt="">
+      <div class="text-sm leading-tight">
+        <p id="userName" class="font-medium">Stephenie A.</p>
+        <p class="text-gray-400">Head of People Ops</p>
+      </div>
+    </div>
+
+  
+    <div class="flex justify-end *:w-12 *:max-sm:w-10 *:h-10 *:rounded-sm *:text-2xl *:flex *:justify-center *:items-center max-sm:justify-start max-sm:w-full max-sm:gap-3">
+      <span><i class="fa-solid fa-arrow-left"></i></span>
+      <span onclick="nextBtn()"><i class="fa-solid fa-arrow-right"></i></span>
+    </div>
+
+  </div>
+</div>
+
+
+    <button class="py-3 mt-16 bg-[#1a191967] rounded-md px-7 max-sm:mt-10 max-sm:text-sm">
+      <i class="fa-solid fa-download"></i> PrivacyPolicy
+    </button>
+  </div>
+
+  <div class="max-sm:mt-10 max-sm:flex max-sm:justify-center">
+    <img src="https://framerusercontent.com/images/ymsKQ0WjJ8iwVfoOnqkziE9vwM.png" alt="" class="max-sm:w-full animi max-sm:max-w-xs">
+  </div>
+</section>
+
+
+  
+<script>
+  const lenis = new Lenis({ smooth: true, duration: 1.2 });
+  function raf(time) {
+    lenis.raf(time);
+    requestAnimationFrame(raf);
+  }
+  requestAnimationFrame(raf);
+
+    const observer = new IntersectionObserver((entries)=>{
+  entries.forEach((entry)=>{
+    if(entry.isIntersecting){
+      entry.target.classList.add('show');
+    }else{
+      entry.target.classList.remove('show')
+    }
+    
+  })
+})
+const hidden = document.querySelectorAll('.animi')
+hidden.forEach((el)=>observer.observe(el))
+
+const userName = document.getElementById("userName")
+const imgUrl = document.getElementById("img")
+let datas = [
+{
+  name:"Andrien A.",
+  img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWh4_P99mrkurSO5UIIpswxWWGG5PBi2r7qw&s"
+},
+{
+  name:"Lisa P.",
+  img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFOCkGCO-lOhWtwiPRNoGRm2iGVAC6WZsbVIN2WEdH0k6c1PAsJbe5DYFwac4fIyjfnJ8&usqp=CAU"
+},
+{
+  name:"Sara S.",
+  img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmLf1TR3a5D_B-cNydXpSC3MAZT3CWiqauIQ&s"
+},
+{
+  name:"Stephenie A.",
+  img:"https://framerusercontent.com/images/8tNhsHc4B7TFPpBK9UU3Rz4Vdk.png"
+}
+]
+let count = 0
+function nextBtn(){
+  count++
+    if(datas.length == count) count=0
+      userName.innerText = datas[count].name
+      imgUrl.src = `${datas[count].img}`
+      console.log(count);
+  console.log(userName)
+}
+console.table(datas)
+</script>
+
+</body>
+</html>
